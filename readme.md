@@ -1,0 +1,1 @@
+This is GUI interface for amanda`s amrecover.
