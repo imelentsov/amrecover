@@ -18,7 +18,7 @@ from PyQt5.QtWidgets import (QApplication, QFileSystemModel, QTreeView, QHeaderV
 from PyQt5.QtGui import QIcon, QStandardItem, QStandardItemModel, QTextCursor
 from PyQt5 import QtWidgets
 
-from amrecover_core import AmrecoverWrapper, AmrecoverConfig
+from amrecover_core import AmrecoverWrapper
 
 class MainWindow(QMainWindow):
     def __init__(self):

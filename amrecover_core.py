@@ -112,16 +112,7 @@ class AmrecoverWrapper(object):
 
 	def getCommandRes(self):
 		return ''.join(self._process_output_reader.getResult())
-
-class AmrecoverConfig(object):
-	def __init__(self, index_server=None, tape_server=None, tape_device=None, host=None):
-		super(object, self).__init__()
-		self.index_server = index_server
-		self.tape_server = tape_server
-		self.tape_device = tape_device
-		self.host = host
-
-
+		
 class InputStreamChunker(threading.Thread):
 	def __init__(self, delimiters = ['\n']):
 		super(InputStreamChunker, self).__init__()
